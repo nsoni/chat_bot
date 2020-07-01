@@ -1,0 +1,24 @@
+.chat-wrap{
+    .message-wraper {
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+        img{
+            max-height: 150px;
+        }
+        .text-message {
+            border-radius: 8px;
+            background: var(--grey);
+            padding: 15px;
+            font-size: 15px;
+            box-shadow: 0 0 5px #a09e9e;
+        }
+        .user-message {
+            background: var(--trance-base);
+        }
+    }
+    .right-message{
+        justify-content: flex-end;
+    }
+    
+}

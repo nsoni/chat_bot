@@ -1,0 +1,18 @@
+.cammera-icon{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(116, 116, 116);
+    font-size: 21px;
+    cursor: pointer;
+    margin: 1px;
+    border-radius: 50%;
+} 
+.cammera-icon:hover{
+    background: var(--grey);
+}
+.hidden{
+    display: none;
+}

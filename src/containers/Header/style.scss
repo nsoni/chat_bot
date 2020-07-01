@@ -1,0 +1,27 @@
+.header-container{
+  align-items: center;
+  background: var(--base);
+  color: var(--white);
+  padding: 14px 12px;
+  justify-content: space-between;
+  .logo-wraper{
+    align-items: center;
+  }
+  .logo{
+    border-radius: 50%;
+  }
+  .text-logo{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .rupee-logo{
+    font-size: 20px;
+    background: var(--base-2);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--base);
+    border-radius: 50%;
+  }
+}
