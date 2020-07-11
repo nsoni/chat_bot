@@ -6,9 +6,10 @@
   justify-content: space-between;
   .logo-wraper{
     align-items: center;
-  }
-  .logo{
-    border-radius: 50%;
+    svg{
+      height: auto;
+      width: 110px;
+    }
   }
   .text-logo{
     font-size: 20px;

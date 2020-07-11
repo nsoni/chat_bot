@@ -22,7 +22,7 @@ export default function NavBar({match, net_state}) {
           <span className = "tab-icon">
             <FontAwesomeIcon icon={faBriefcase}/>
           </span>
-          <span className = "tab-text">MY JOBS</span>
+          <span className = "tab-text">PRODUCTS</span>
         </div>
       </Link>
       <Link to = "/Profile" className = {`tabs-wraper ${path == "Profile" && "active"}`}>
