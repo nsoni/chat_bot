@@ -3,9 +3,8 @@ import Input from "../../partials/Input/Input"
 import ImageUploader from "../../components/ImageUploader/ImageUploader"
 import {arrowIcon} from "../../static/svgs"
 
-import { Store } from '../../redux/Store'
 import "./style.scss"
-
+// business login move from here
 export default function Footer(props) {
   const [message, setMessage] = useState("");
 

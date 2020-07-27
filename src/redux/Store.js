@@ -6,8 +6,8 @@ const initialState = {
 }
 
 const reducer = (state=initialState,action) => {
-  switch(action.types) { 
-    case "NET_SATATUS" : return { ...state, message : action.message }
+  switch(action.type) { 
+    case "ADD" : return { ...state}
     default:
       return state;
   }

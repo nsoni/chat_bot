@@ -17,14 +17,6 @@ export default function NavBar({match, net_state}) {
           <span className = "tab-text">CHAT</span>
         </div>
       </Link>
-      <Link to = "/Jobs" className = {`tabs-wraper ${path == "Jobs" && "active"}`}>
-        <div className = "tabs">
-          <span className = "tab-icon">
-            <FontAwesomeIcon icon={faBriefcase}/>
-          </span>
-          <span className = "tab-text">PRODUCTS</span>
-        </div>
-      </Link>
       <Link to = "/Profile" className = {`tabs-wraper ${path == "Profile" && "active"}`}>
         <div className = "tabs">
           <span className = "tab-icon">
