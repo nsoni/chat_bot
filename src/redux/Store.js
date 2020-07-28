@@ -5,9 +5,20 @@ const initialState = {
   message: [],
 }
 
+export function addChat(arg){
+  arg.dispatch({
+    type: 'ADD',
+    message: arg.new_message,
+  })
+}
+
 const reducer = (state=initialState,action) => {
   switch(action.type) { 
-    case "ADD" : return { ...state}
+    case "ADD" : 
+      return {
+        ...state,
+        message: action.message
+      }
     default:
       return state;
   }
