@@ -4,10 +4,12 @@ import "./style.scss"
 export default function Chats(props){
   let {currentChat} = props
   return (
-    currentChat.map((msg, index) => {
 
-      return (
-        <div key = {index} className = "chat-main">
+    <div className = "chat-main">
+      {currentChat.map((msg, index) => {
+        return (
+        <div key = {index} className = "">
+
           {typeof(msg.data.userMessage) == "object" 
             ? 
               <div className = "message-wraper right-message">
@@ -24,6 +26,7 @@ export default function Chats(props){
           </div>
         </div>   
       )
-    })
-  )
+      })
+      }
+    </div>)
 }

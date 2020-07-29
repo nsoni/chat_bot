@@ -47,7 +47,7 @@ const Routes = () => {
         </Switch>
       </div>
      
+      <Route path="/Chat" component={Footer}/>
     </div>
   )};
- //<Route path="/Chat" component={Footer}/>
 export default Routes
