@@ -7,4 +7,4 @@ Do `npm i` to install all dependencies
 
 if everything alright it should onen on `http://localhost:6862/`
 # Demo 
-https://codesandbox.io/s/elastic-field-b34n4?file=/src/pages/index.js
+https://codesandbox.io/s/elastic-field-b34n4
